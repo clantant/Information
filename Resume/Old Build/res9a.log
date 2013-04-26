@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.9)  27 FEB 2013 11:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.9)  26 APR 2013 07:38
 entering extended mode
-**C:/Users/Eric/Documents/Resume/res9a.tex
-(C:/Users/Eric/Documents/Resume/res9a.tex
+**C:/Users/Eric/Documents/GitHub/Information/Resume/Old*Build/res9a.tex
+("C:/Users/Eric/Documents/GitHub/Information/Resume/Old Build/res9a.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\Users\Eric\Documents\Resume\res.cls
+("C:\Users\Eric\Documents\GitHub\Information\Resume\Old Build\res.cls"
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
 ("E:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -173,47 +173,42 @@ LaTeX Font Info:    ... okay on input line 16.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 30.
 
-Overfull \hbox (7.53432pt too wide) in paragraph at lines 46--46
+Overfull \hbox (7.53432pt too wide) in paragraph at lines 47--47
 []\OT1/cmr/bx/n/10 QUALIFICATIONS  
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
 ("E:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--72
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 61--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
@@ -232,24 +227,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ) 
 Here is how much of TeX's memory you used:
  926 strings out of 494045
- 12661 string characters out of 3148390
+ 12806 string characters out of 3148390
  73684 words of memory out of 3000000
  4273 multiletter control sequences out of 15000+200000
  4906 words of font info for 18 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 29i,8n,19p,226b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,19p,255b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsl10.pfb><E:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb>
-Output written on res9a.pdf (1 page, 71414 bytes).
+Output written on res9a.pdf (1 page, 71334 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
