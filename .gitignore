@@ -1,3 +1,4 @@
 us.stackdump
 *.log
 *.synctex.gz
+*.aux
