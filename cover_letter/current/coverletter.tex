@@ -1,0 +1,133 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+% Modifications for personal use:
+% Eric Timmerman <eet1992@gmail.com>
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Eric}{Timmerman}
+\position{Software Engineer}
+\address{12410 SW Center Street Apt 95, Beaverton Oregon, 97005}
+
+\mobile{503-899-5085} 
+\email{eet1992@gmail.com}
+%\homepage{}
+\github{clantant}
+\linkedin{clantant}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+\quote{``Learn from the past; live in the present; prepare for the future."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+\newcommand{\company}{filler company}
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Software Engineer}
+% How the letter is opened
+\letteropening{Dear Mr./Ms./Dr. LastName,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Eric Timmerman~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{The Person}
+Many people have told me that they could never work with computers and code. Some say it's too hard and others say it's too complicated. They are both right, it is complicated and hard to program and design software. I enjoy the challenge and discovery that is required to understand different software systems. I've learned a lot from both my professional and academic experience.
+
+\lettersection{The Journey}
+When I started college I was an electrical and computer engineering major because I was interested in systems and the combination of software and hardware. After being fascinated by the way code is written and read I made the switch to computer science. I've learned from creating a database and website using php and mysql to writing assembler for an embedded platform.
+The knowledge of systems set the groundwork for my internship wherein I focused on building, packaging, and releasing software. My primary goal was to make it easier and less involved to update open-source packages as part of a distributed build framework. Primarily I worked with Ruby and received Puppet fundamentals training as part of my tenure. Finally, my most recent work I have been focusing on a custom Linux distribution including building and packaging. Most of my experience was in debugging large complicated software stacks using tools like strace and wireshark.
+
+\lettersection{The Destination}
+I am interested in this position because I think it fits with my skillset and I can excel at the problems I would expect to encounter. I strive to come up to speed quickly and enjoy learning new languages, tools, and implementations. I appreciate your time and hope to hear from you soon.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

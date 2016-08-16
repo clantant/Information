@@ -2,3 +2,4 @@ us.stackdump
 *.log
 *.synctex.gz
 *.aux
+Thumbs.db

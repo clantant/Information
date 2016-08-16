@@ -1,7 +1,0 @@
-\setlength{\textwidth}{5.1in} % set width of text portion
-\usepackage{multicol}
-\usepackage[
-top = .5in,
-bottom = .5in,
-left = .5in
-right = .5in] {geometry}
